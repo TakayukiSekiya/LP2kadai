@@ -78,8 +78,6 @@ header .drawer {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
 }
 
 
@@ -251,36 +249,8 @@ header .drawer {
   height: auto;
 }
 
-
-.app1 {
-  background: linear-gradient(#fff, rgb(250, 245, 245));
-  border-radius: 30px;
-  padding: 100px 20px;
-  width: 85%;
-  margin: 0 auto;
-  position: relative;
-}
-.app_wrap1 {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-}
-.app1 .app_item1 {
+.app .app_item1 {
   margin: 70px 0 0 50px;
-  position: absolute;
-  left: 500px;
-}
-.app1 .descript {
-  font-size: 14px;
-  line-height: 2;
-}
-.app1 .app_img1 {
-  display: inline-block;
-}
-.app1 .app_img1 img {
-  position: absolute;
-  width: 300px;
-  height: auto;
 }
 
 
@@ -302,6 +272,7 @@ header .drawer {
   border-radius: 30px;
   padding-bottom: 100px;
   line-height: 2;
+  margin: 0 25px;
 }
 
 .how_list li {
@@ -724,7 +695,7 @@ footer {
   }
 
   .top .top_img {
-    display: inline-block;
+    display: block;
     position: unset;
     right: unset;
   }
@@ -743,17 +714,17 @@ footer {
     padding: 50px 30px 100px;
   }
 
-  .app1 .app_item1 {
-    position: unset;
-    left: unset;
-    width: unset;
+  
+  
+  .app .app_item1 {
     margin: 0;
   }
-  .app1 .app_img1 img {
-    position: unset;
-    display: block;
-    width: 60%;
-    margin: 100px auto 0;
+  
+  
+
+
+  .how_to {
+    margin: 0 10px;
   }
 
   .faq .txt {
